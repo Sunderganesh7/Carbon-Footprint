@@ -1,278 +1,242 @@
+
+
 # 🌱 CarbonWise AI
 
-<div align="center">
+## 📖 Overview
 
-# AI-Powered Carbon Footprint Awareness Platform
+**CarbonWise AI** is a full-stack web application designed to help individuals understand and reduce their environmental impact.
 
-Track, analyze, and reduce your carbon footprint with AI-driven insights, sustainability simulations, and gamified eco-challenges.
+The platform converts everyday activities such as transportation, energy consumption, food habits, and lifestyle choices into estimated carbon emissions.
 
-![React](https://img.shields.io/badge/React-18-blue)
-![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)
-![Node.js](https://img.shields.io/badge/Node.js-Backend-green)
-![License](https://img.shields.io/badge/License-MIT-yellow)
-![Status](https://img.shields.io/badge/Status-Production-success)
+It then analyzes the user's carbon profile and provides personalized sustainability recommendations through an AI-powered coach.
 
-</div>
+### Main Goal
+
+> Help users understand where their emissions come from and provide practical ways to reduce them.
 
 ---
 
-# 📖 Overview
+# 🎯 Problem Statement
 
-CarbonWise AI is a full-stack web application designed to help individuals understand, track, and reduce their carbon footprint through personalized insights, AI-powered coaching, sustainability simulations, and environmental awareness tools.
+Many people are aware of climate change but do not know how their daily activities contribute to carbon emissions.
 
-The platform converts everyday activities into measurable carbon emissions and provides practical recommendations to encourage sustainable behavior.
+CarbonWise AI addresses this problem by providing:
 
----
-
-# 🎯 Chosen Vertical
-
-### Sustainability & Environmental Awareness
-
-CarbonWise AI is built under the Sustainability and Environmental Awareness vertical.
-
-The platform focuses on helping users:
-
-- Understand their carbon footprint
-- Track environmental impact over time
-- Identify major emission sources
-- Receive personalized sustainability recommendations
-- Reduce emissions through simple lifestyle changes
-
-Target users include:
-
-- Students
-- Working Professionals
-- Families
-- Environmentally Conscious Individuals
-- Educational Institutions
+- Simple carbon footprint calculation
+- Emission source analysis
+- Personalized AI recommendations
+- Carbon reduction simulations
+- Sustainability progress tracking
+- Gamified environmental challenges
 
 ---
 
-# 🚀 Features
+# 🚀 Key Features
 
-## 🌍 Carbon Footprint Calculator
+## 🌍 1. Carbon Footprint Calculator
 
-Calculate emissions from:
+Users can enter information related to:
 
 - Transportation
-- Energy Consumption
-- Food Habits
-- Lifestyle Activities
+- Electricity and energy consumption
+- Food habits
+- Lifestyle activities
+- Shopping and consumption
+- Waste generation
+
+The system calculates an estimated carbon footprint using predefined emission factors.
 
 ---
 
-## 📊 Interactive Dashboard
+## 📊 2. Interactive Carbon Dashboard
 
-Provides:
+The dashboard provides a visual overview of the user's environmental impact.
 
-- Monthly Carbon Footprint
-- Weekly Analysis
-- Emission Breakdown
-- Sustainability Score
-- Trend Visualizations
+It includes:
 
----
-
-## 🤖 AI Sustainability Coach
-
-AI-powered assistant capable of:
-
-- Carbon Hotspot Analysis
-- Personalized Recommendations
-- Sustainability Guidance
-- Environmental Awareness Education
-- Hinglish Support
+- Total carbon footprint
+- Weekly analysis
+- Monthly trends
+- Emission breakdown
+- Category-wise contribution
+- Sustainability score
+- Progress tracking
 
 ---
 
-## 🎯 Carbon Reduction Simulator
+## 🤖 3. AI Sustainability Coach
 
-Users can:
+CarbonWise AI includes an AI-powered sustainability coach.
 
-- Modify lifestyle activities
-- Compare current and optimized scenarios
-- Estimate potential savings
-- Visualize reduction impact instantly
+The AI Coach can:
 
----
-
-## 🏆 Eco Challenges
-
-Gamified sustainability system:
-
-- Public Transport Challenge
-- No Car Day
-- Green Shopping Challenge
-- Save Electricity Challenge
-- Plant-Based Week
-- Bike Commute Challenge
+- Analyze carbon hotspots
+- Explain emission sources
+- Provide personalized recommendations
+- Suggest sustainable lifestyle changes
+- Answer environmental awareness questions
+- Guide users toward emission reduction
 
 ---
 
-## 📈 Progress Tracking
+## 🎯 4. Carbon Reduction Simulator
 
-Track:
+Users can experiment with different lifestyle choices before making real-world changes.
 
-- Historical Carbon Data
-- Weekly Improvement
-- Monthly Trends
-- Sustainability Growth
+For example:
+
+```text
+Current Lifestyle
+        ↓
+Change Activity
+        ↓
+Recalculate Emissions
+        ↓
+Compare Results
+        ↓
+View Potential Reduction
+````
+
+Users can compare their current footprint with an optimized scenario and understand the potential impact of different choices.
 
 ---
 
-## 🌱 Sustainability Score Engine
+## 🏆 5. Eco Challenges
 
-Score Range:
+CarbonWise AI includes gamified sustainability challenges such as:
 
-- 80 – 100 → Excellent
-- 60 – 79 → Good
-- 40 – 59 → Average
-- Below 40 → Needs Improvement
+* 🚆 Public Transport Challenge
+* 🚗 No Car Day
+* 🛍️ Green Shopping Challenge
+* 💡 Save Electricity Challenge
+* 🌱 Plant-Based Week
+* 🚲 Bike Commute Challenge
+
+These challenges encourage users to adopt sustainable habits.
 
 ---
 
-# 🧠 Approach & Logic
+## 📈 6. Progress Tracking
 
-The platform follows a simple environmental decision-making workflow:
+Users can track their environmental progress through:
+
+* Historical carbon data
+* Weekly improvements
+* Monthly trends
+* Emission reduction
+* Sustainability score changes
+
+---
+
+## 🌱 7. Sustainability Score
+
+The platform provides a sustainability score based on the user's carbon footprint and environmental activities.
+
+Example score ranges:
+
+|    Score | Category          |
+| -------: | ----------------- |
+|   80–100 | Excellent         |
+|    60–79 | Good              |
+|    40–59 | Average           |
+| Below 40 | Needs Improvement |
+
+---
+
+# 🧠 System Workflow
 
 ```text
 User Activities
-        ↓
+       ↓
 Carbon Calculation
-        ↓
-Emission Analysis
-        ↓
-Hotspot Detection
-        ↓
-AI Recommendations
-        ↓
+       ↓
+Emission Breakdown
+       ↓
+Carbon Hotspot Detection
+       ↓
+AI Sustainability Analysis
+       ↓
+Personalized Recommendations
+       ↓
 Reduction Simulation
-        ↓
+       ↓
 Progress Tracking
 ```
 
-CarbonWise AI not only calculates emissions but also helps users understand why emissions occur and how they can reduce them.
-
 ---
 
-# ⚙️ How The Solution Works
+# ⚙️ How It Works
 
-## Step 1: User Inputs Activities
+### Step 1 — User Input
 
-Users enter:
+The user provides information about daily activities such as:
 
-- Daily transportation
-- Electricity consumption
-- Food preferences
-- Shopping habits
-- Waste generation
+* Transportation
+* Electricity consumption
+* Food preferences
+* Shopping habits
+* Waste generation
 
----
+### Step 2 — Carbon Calculation
 
-## Step 2: Carbon Calculation
-
-The platform calculates estimated emissions using predefined emission factors.
-
-Example:
+The system applies predefined emission factors to estimate carbon emissions.
 
 ```text
 Transportation
-+
+      +
 Energy
-+
+      +
 Food
-+
+      +
 Lifestyle
-=
+      =
 Total Carbon Footprint
 ```
 
----
+### Step 3 — Emission Analysis
 
-## Step 3: Emission Breakdown
+The application analyzes the calculated footprint and identifies major emission sources.
 
-The application identifies:
+### Step 4 — AI Analysis
 
-- Largest emission source
-- Category percentages
-- Environmental hotspots
+The AI Coach uses the user's carbon profile to generate personalized sustainability recommendations.
 
----
+### Step 5 — Simulation
 
-## Step 4: AI Analysis
+Users can modify their activities and compare their current footprint with an optimized scenario.
 
-AI Coach evaluates:
+### Step 6 — Progress Tracking
 
-- User behavior
-- Carbon profile
-- Sustainability opportunities
-
-And generates:
-
-- Personalized suggestions
-- Reduction strategies
-- Awareness insights
-
----
-
-## Step 5: Simulator
-
-Users can test lifestyle changes and instantly view:
-
-- Potential carbon savings
-- Emission reduction percentages
-- Improved sustainability scores
-
----
-
-## Step 6: Progress Monitoring
-
-Users monitor:
-
-- Historical emissions
-- Weekly improvements
-- Long-term sustainability progress
-
----
-
-# 📌 Assumptions Made
-
-The following assumptions were made during development:
-
-- User-provided data is assumed to be accurate.
-- Carbon calculations are estimations based on publicly available emission factors.
-- Results are intended for awareness purposes and not certified environmental audits.
-- Sustainability scores are benchmark-based.
-- Challenge completion is user-reported.
-- Internet access is available for AI-powered features.
-- Local storage is used for lightweight persistence in the MVP version.
+The platform allows users to monitor their environmental progress over time.
 
 ---
 
 # 🏗️ Architecture
 
 ```text
-carbonwise-ai/
-├── client/
-│   ├── components/
-│   ├── hooks/
-│   ├── pages/
-│   ├── services/
-│   ├── types/
-│   ├── utils/
-│   └── tests/
+CarbonWise AI
 │
-├── server/
-│   ├── routes/
-│   ├── services/
-│   ├── middleware/
-│   ├── validators/
-│   ├── utils/
-│   └── tests/
+├── Frontend
+│   ├── Components
+│   ├── Pages
+│   ├── Hooks
+│   ├── Services
+│   ├── Types
+│   └── Utilities
 │
-├── vercel.json
-├── .env.example
-└── README.md
+├── Backend
+│   ├── Routes
+│   ├── Services
+│   ├── Middleware
+│   ├── Validators
+│   └── Utilities
+│
+├── AI Layer
+│   └── OpenRouter API
+│
+└── Configuration
+    ├── .env.example
+    └── vercel.json
 ```
 
 ---
@@ -281,103 +245,91 @@ carbonwise-ai/
 
 ## Frontend
 
-- React 18
-- TypeScript
-- Vite
-- Tailwind CSS
-- React Router
-- Recharts
+* React 18
+* TypeScript
+* Vite
+* Tailwind CSS
+* React Router
+* Recharts
 
 ## Backend
 
-- Node.js
-- Express.js
-- TypeScript
+* Node.js
+* Express.js
+* TypeScript
 
 ## AI
 
-- OpenRouter API
+* OpenRouter API
 
 ## Validation
 
-- Zod
+* Zod
 
 ## Security
 
-- Helmet
-- CORS
-- Rate Limiting
+* Helmet
+* CORS
+* Rate Limiting
+* Environment Variables
+* Input Validation
 
 ## Testing
 
-- Vitest
-- React Testing Library
+* Vitest
+* React Testing Library
 
 ---
 
-# 📊 Sustainability Metrics
+# 🔐 Security
 
-## Indian Benchmark
+CarbonWise AI follows secure development practices including:
 
-Average Carbon Footprint:
+* Input validation
+* Zod schema validation
+* Helmet security headers
+* CORS configuration
+* API rate limiting
+* Environment variables
+* Error handling
+* Input sanitization
 
-167 kg CO₂ / Month
+### Environment Variables
 
-## Global Benchmark
+Sensitive API keys and credentials should be stored in `.env`.
 
-Average Carbon Footprint:
+**Never commit `.env` or API keys to GitHub.**
 
-250 kg CO₂ / Month
-
-## Sustainability Target
-
-83 kg CO₂ / Month
-
----
-
-# 🔒 Security Features
-
-CarbonWise AI follows secure development practices:
-
-- Input Validation using Zod
-- Helmet Security Headers
-- API Rate Limiting
-- Environment Variables
-- Error Handling Middleware
-- Safe Data Processing
-- Input Sanitization
+Use `.env.example` as the configuration template.
 
 ---
 
-# ⚡ Performance Optimizations
+# ⚡ Performance
 
-Implemented optimizations include:
+The application includes several performance optimizations:
 
-- Route-Based Lazy Loading
-- React Memoization
-- Debounced Inputs
-- Optimized Rendering
-- Lightweight Styling
-- Efficient Carbon Calculations
+* Route-based lazy loading
+* React memoization
+* Debounced inputs
+* Optimized rendering
+* Lightweight styling
+* Efficient carbon calculations
 
 ---
 
 # 🧪 Testing
 
-Automated testing covers:
+The project includes automated tests for important application functionality.
 
-- Carbon Calculation Engine
-- Sustainability Score Logic
-- Recommendation Engine
-- API Validation
-- UI Components
+Testing covers areas such as:
 
-Testing Tools:
+* Carbon calculation
+* Sustainability scoring
+* Recommendation logic
+* API validation
+* UI components
 
-- Vitest
-- React Testing Library
-
-Run Tests:
+Run tests using:
 
 ```bash
 npm run test
@@ -385,127 +337,118 @@ npm run test
 
 ---
 
-# ♿ Accessibility
-
-CarbonWise AI follows accessibility best practices:
-
-- Semantic HTML
-- Keyboard Navigation
-- ARIA Labels
-- Screen Reader Support
-- Responsive Design
-- Mobile First Layout
-- Accessible Form Validation
-
----
-
-# 🏆 Evaluation Alignment
-
-This project was designed to align with PromptWars evaluation criteria.
-
-| Evaluation Area | Implementation |
-|----------------|----------------|
-| Code Quality | Modular TypeScript Architecture |
-| Security | Helmet, Validation, Rate Limiting |
-| Efficiency | Optimized Rendering & Lazy Loading |
-| Testing | Automated Unit & Component Tests |
-| Accessibility | ARIA Labels, Responsive Design |
-| Problem Alignment | AI Carbon Awareness Platform |
-
----
-
 # 🌐 API Endpoints
 
-| Method | Endpoint | Description |
-|----------|----------------------------|----------------------------|
-| POST | /api/carbon/calculate | Calculate emissions |
-| GET | /api/carbon/factors | Emission factors |
-| POST | /api/coach/chat | AI Coach |
-| GET | /api/challenges | Challenge list |
-| POST | /api/challenges/update | Update progress |
-| POST | /api/challenges/reset | Reset challenges |
-| GET | /api/health | Health check |
+| Method | Endpoint                 | Description                |
+| ------ | ------------------------ | -------------------------- |
+| POST   | `/api/carbon/calculate`  | Calculate carbon emissions |
+| GET    | `/api/carbon/factors`    | Retrieve emission factors  |
+| POST   | `/api/coach/chat`        | Communicate with AI Coach  |
+| GET    | `/api/challenges`        | Retrieve eco challenges    |
+| POST   | `/api/challenges/update` | Update challenge progress  |
+| POST   | `/api/challenges/reset`  | Reset challenges           |
+| GET    | `/api/health`            | Backend health check       |
+
+---
+
+# 📊 Sustainability Metrics
+
+The application uses benchmark values to provide users with contextual information about their estimated footprint.
+
+> Carbon footprint values are estimates intended for awareness and educational purposes and should not be treated as certified environmental measurements.
 
 ---
 
 # 🚀 Installation
 
-Clone repository:
+### 1. Clone the repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Sunderganesh7/Carbon-Footprint.git
 ```
 
-Install dependencies:
+### 2. Navigate to the project
 
 ```bash
-npm install
+cd Carbon-Footprint
 ```
 
-Run application:
+### 3. Install dependencies
 
-```bash
-npm run dev
+Install the dependencies for the frontend and backend according to their respective package files.
+
+### 4. Configure environment variables
+
+Create a `.env` file based on:
+
+```text
+.env.example
 ```
+
+Add the required API configuration.
+
+### 5. Start the application
+
+Use the project's configured development commands to start the frontend and backend.
 
 ---
 
 # 🌐 Deployment
 
-Frontend:
+The application can be deployed using:
 
-- Vercel
+### Frontend
 
-Backend:
+* Vercel
 
-- Render
-- Railway
-- Fly.io
-- VPS
+### Backend
 
----
-
-# 🔮 Future Roadmap
-
-- User Authentication
-- Cloud Synchronization
-- Leaderboards
-- Community Challenges
-- PDF Reports
-- Mobile Application
-- Multi-Language Support
-- Carbon Offset Marketplace
-- ML-Based Carbon Predictions
+* Render
+* Railway
+* VPS
 
 ---
 
-# 🤝 Contributing
+# 🔮 Future Improvements
 
-This repository was developed as a hackathon submission.
+Planned improvements include:
 
-Community contributions may be considered in future versions.
-
----
-
-# 📜 License
-
-MIT License
-
----
-
-# 👨‍💻 Author
-
-### Harsh Nagpal
-
-Cyber Security Enthusiast • Full Stack Developer • AI Innovator
-
-GitHub: https://github.com/harsh160311
-
-Made with ❤️ in India 🇮🇳
+* User authentication
+* Cloud data synchronization
+* Community challenges
+* Leaderboards
+* PDF sustainability reports
+* Mobile application
+* Multi-language support
+* Carbon reduction recommendations using historical data
+* ML-based carbon prediction
+* Carbon offset integration
 
 ---
 
-# 🌱 Building Technology for a Sustainable Future
+# 📌 Project Highlights
 
-CarbonWise AI © 2026#   C a r b o n - F o o t p r i n t  
- 
+| Area            | Implementation                           |
+| --------------- | ---------------------------------------- |
+| Carbon Tracking | Activity-based emission calculation      |
+| AI              | AI-powered Sustainability Coach          |
+| Analytics       | Carbon trends and breakdown              |
+| Simulation      | Lifestyle change comparison              |
+| Gamification    | Eco challenges                           |
+| Visualization   | Interactive dashboards                   |
+| Security        | Validation, Helmet, CORS & rate limiting |
+| Testing         | Automated frontend/backend testing       |
+
+---
+
+# 👨‍💻 Project
+
+**CarbonWise AI**
+
+AI-powered environmental awareness and carbon footprint platform.
+
+**Repository:** `Carbon-Footprint`
+
+Built with React, TypeScript, Node.js, and AI technologies.
+
+
